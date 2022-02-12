@@ -36,6 +36,13 @@
     transform: rotate(360deg);
   }
 }
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 10px;
+  right: 130px;
+  color: rgb(233, 17, 28);
+}
 
 /* The hero image for Home page */
 .hero-image-home {
@@ -66,4 +73,37 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+.hero-image-login{
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Body/Images/home.jpg");
+
+  /* Set a specific height */
+  height: 100vh;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.btn-login{
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.login-input{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+.login-input:focus{
+  background-color: #ddd;
+  outline: none;
 }
