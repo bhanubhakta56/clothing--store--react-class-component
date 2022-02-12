@@ -2,6 +2,7 @@ import { Component } from "react/cjs/react.production.min";
 import { Route , Routes} from "react-router-dom";
 import Home from "./home";
 import Single from "./Single";
+import Profile from "./Profile/Profile";
 
 class Body extends Component{
     render(){
@@ -10,6 +11,8 @@ class Body extends Component{
                 <Routes>
                     <Route path="/" exact element={<Home/>}/>
                     <Route path="/single" exact element={<Single/>}/>
+                    <Route path="/profile" exact element={<Profile/>}/>
+
                 </Routes>
             </div>
         )

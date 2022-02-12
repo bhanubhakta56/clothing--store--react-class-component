@@ -22,7 +22,7 @@ class Home extends Component{
                                     <h4 class="card-title text-center">JACKET NAME</h4>
                                     <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
                                     <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>ADD TO CART</button></u></a>
+                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
                                 </div>
                             </div>
                         </div>
@@ -33,7 +33,7 @@ class Home extends Component{
                                     <h4 class="card-title text-center">JACKET NAME</h4>
                                     <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
                                     <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>ADD TO CART</button></u></a>
+                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
                                 </div>
                             </div>
                         </div>
@@ -44,7 +44,7 @@ class Home extends Component{
                                     <h4 class="card-title text-center">JACKET NAME</h4>
                                     <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
                                     <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>ADD TO CART</button></u></a>
+                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
 
                                 </div>
                             </div>
@@ -56,7 +56,7 @@ class Home extends Component{
                                     <h4 class="card-title text-center">JACKET NAME</h4>
                                     <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
                                     <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>ADD TO CART</button></u></a>
+                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
                                 </div>
                             </div>
                         </div>
@@ -67,7 +67,7 @@ class Home extends Component{
                                     <h4 class="card-title text-center">JACKET NAME</h4>
                                     <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
                                     <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>ADD TO CART</button></u></a>
+                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ class Home extends Component{
                                     <h4 class="card-title text-center">JACKET NAME</h4>
                                     <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
                                     <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>ADD TO CART</button></u></a>
+                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
                                 </div>
                             </div>
                         </div>
@@ -98,7 +98,7 @@ class Home extends Component{
                                     <h4 class="card-title text-center">JACKET NAME</h4>
                                     <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
                                     <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>ADD TO CART</button></u></a>
+                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
                                 </div>
                             </div>
                         </div>
@@ -109,7 +109,7 @@ class Home extends Component{
                                     <h4 class="card-title text-center">JACKET NAME</h4>
                                     <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
                                     <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>ADD TO CART</button></u></a>
+                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
                                 </div>
                             </div>
                         </div>
@@ -120,7 +120,7 @@ class Home extends Component{
                                     <h4 class="card-title text-center">JACKET NAME</h4>
                                     <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
                                     <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>ADD TO CART</button></u></a>
+                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
                                 </div>
                             </div>
                         </div>
@@ -131,7 +131,7 @@ class Home extends Component{
                                     <h4 class="card-title text-center">JACKET NAME</h4>
                                     <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
                                     <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>ADD TO CART</button></u></a>
+                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
                                 </div>
                             </div>
                         </div>
@@ -142,7 +142,7 @@ class Home extends Component{
                                     <h4 class="card-title text-center">JACKET NAME</h4>
                                     <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
                                     <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>ADD TO CART</button></u></a>
+                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
                                 </div>
                             </div>
                         </div>
@@ -153,7 +153,7 @@ class Home extends Component{
                                     <h4 class="card-title text-center">JACKET NAME</h4>
                                     <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
                                     <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>ADD TO CART</button></u></a>
+                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
                                 </div>
                             </div>
                         </div>
@@ -171,7 +171,7 @@ class Home extends Component{
                                     <h4 class="card-title text-center">JACKET NAME</h4>
                                     <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
                                     <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>ADD TO CART</button></u></a>
+                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
                                 </div>
                             </div>
                         </div>
@@ -182,7 +182,7 @@ class Home extends Component{
                                     <h4 class="card-title text-center">JACKET NAME</h4>
                                     <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
                                     <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>ADD TO CART</button></u></a>
+                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
                                 </div>
                             </div>
                         </div>
@@ -193,7 +193,7 @@ class Home extends Component{
                                     <h4 class="card-title text-center">JACKET NAME</h4>
                                     <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
                                     <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>ADD TO CART</button></u></a>
+                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
                                 </div>
                             </div>
                         </div>
@@ -204,7 +204,7 @@ class Home extends Component{
                                     <h4 class="card-title text-center">JACKET NAME</h4>
                                     <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
                                     <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>ADD TO CART</button></u></a>
+                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
                                 </div>
                             </div>
                         </div>
@@ -215,7 +215,7 @@ class Home extends Component{
                                     <h4 class="card-title text-center">JACKET NAME</h4>
                                     <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
                                     <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>ADD TO CART</button></u></a>
+                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
                                 </div>
                             </div>
                         </div>
@@ -226,7 +226,7 @@ class Home extends Component{
                                     <h4 class="card-title text-center">JACKET NAME</h4>
                                     <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
                                     <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>ADD TO CART</button></u></a>
+                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
                                 </div>
                             </div>
                         </div>

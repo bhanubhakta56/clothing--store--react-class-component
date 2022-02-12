@@ -1,4 +1,4 @@
-import { Component } from "react/cjs/react.production.min";
+import { Component } from "react"
 import p1 from "../Body/Images/p1.jpg"
 
 class Single extends Component{
