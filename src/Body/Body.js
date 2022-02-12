@@ -6,6 +6,7 @@ import Profile from "./Profile/Profile";
 import Login from "./Login";
 import AddProduct from "./Product/AddProduct";
 import UpdateProduct from "./Product/UpdateProduct";
+import ViewProduct from "./Product/ViewProduct";
 
 class Body extends Component{
     render(){
@@ -18,6 +19,7 @@ class Body extends Component{
                     <Route path="/login" exact element={<Login/>}/>
                     <Route path="/addProduct" exact element={<AddProduct/>}/>
                     <Route path="/updateProduct" exact element={<UpdateProduct/>}/>
+                    <Route path="/viewProduct" exact element={<ViewProduct/>}/>
                 </Routes>
             </div>
         )
