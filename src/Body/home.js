@@ -13,8 +13,8 @@ class Home extends Component{
                 </div>
                 <div class="p-3">
                     {/* Jackets For You */}
-                    <h2 class="mt-3">Jackets For You</h2>
-                    <div className="row justify-content-center overflow-hidden">
+                    <h2 class="mt-3">Winter Collection</h2>
+                    <div id="winter" className="row justify-content-center overflow-hidden">
                         <div className="col-md-2 col-s-5">
                             <div class="card shadow p-2 mt-3" style={{backgroundColor: "#a66dd1"}}>
                                 <img class="m-1 img-fluid" src={p1} style={{height:"200px"}} alt="restaurant Image"/>
@@ -89,8 +89,8 @@ class Home extends Component{
                    
 
                     {/* Cheaper Restaurant */}
-                    <h2>Cheaper Jackets For You</h2>
-                    <div className="row justify-content-center overflow-hidden">
+                    <h2>Summer Collection</h2>
+                    <div id="summer" className="row justify-content-center overflow-hidden">
                     <div className="col-md-2 col-s-5">
                             <div class="card shadow p-2 mt-3" style={{backgroundColor: "#a66dd1"}}>
                                 <img class="m-1 img-fluid" src={p1} style={{height:"200px"}} alt="restaurant Image"/>
@@ -162,8 +162,8 @@ class Home extends Component{
                     <hr/>
 
                     {/* Expensive jackets */}
-                    <h2>Expensive Jackets For You</h2>
-                    <div className="row justify-content-center overflow-hidden">
+                    <h2>Spring Collection</h2>
+                    <div id="spring" className="row justify-content-center overflow-hidden">
                     <div className="col-md-2 col-s-5">
                             <div class="card shadow p-2 mt-3" style={{backgroundColor: "#a66dd1"}}>
                                 <img class="m-1 img-fluid" src={p1} style={{height:"200px"}} alt="restaurant Image"/>

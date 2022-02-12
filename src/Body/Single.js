@@ -4,7 +4,7 @@ import p1 from "../Body/Images/p1.jpg"
 class Single extends Component{
     render(){
         return(
-            <div className="container-fluid">
+            <div className="container-fluid p-3">
                 <div className="hero-single">
 
                 </div>

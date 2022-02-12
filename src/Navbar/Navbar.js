@@ -21,17 +21,14 @@ class Navbar extends Component{
                         <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
                         </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                        </li>
                         <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Collection
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Summer</a></li>
-                            <li><a class="dropdown-item" href="#">Winter</a></li>
-                            <li><a class="dropdown-item" href="#">Spring</a></li>
+                            <li><a class="dropdown-item" href="#summer">Summer</a></li>
+                            <li><a class="dropdown-item" href="#winter">Winter</a></li>
+                            <li><a class="dropdown-item" href="#spring">Spring</a></li>
                         </ul>
                         </li>
                     </ul>
