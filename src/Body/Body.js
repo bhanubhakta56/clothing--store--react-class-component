@@ -5,6 +5,7 @@ import Single from "./Single";
 import Profile from "./Profile/Profile";
 import Login from "./Login";
 import AddProduct from "./Product/AddProduct";
+import UpdateProduct from "./Product/UpdateProduct";
 
 class Body extends Component{
     render(){
@@ -16,6 +17,7 @@ class Body extends Component{
                     <Route path="/profile" exact element={<Profile/>}/>
                     <Route path="/login" exact element={<Login/>}/>
                     <Route path="/addProduct" exact element={<AddProduct/>}/>
+                    <Route path="/updateProduct" exact element={<UpdateProduct/>}/>
                 </Routes>
             </div>
         )
