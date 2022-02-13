@@ -6,6 +6,12 @@ import Home from './Body/home';
 import Body from './Body/Body';
 import Navbar from './Navbar/Navbar';
 import Footer from './Footer/Footer';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab, faFacebookF } from '@fortawesome/free-brands-svg-icons'
+import { faBell, faCheckSquare, faCoffee, faPencilAlt, faSearch, faSignOutAlt, faStar, faTrash, faUser} from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faCheckSquare, faCoffee, faSearch, faStar, faUser, faSignOutAlt, faPencilAlt, faTrash, faBell)
+
 
 
 function App() {

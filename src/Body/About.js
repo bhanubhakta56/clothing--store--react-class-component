@@ -1,5 +1,7 @@
 import { Component } from "react";
-import logo from "../logo.png"
+import logo from "../logo.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 class About extends Component{
     render(){
@@ -8,7 +10,7 @@ class About extends Component{
                 <div class="bg-white py-5">
                     <div class="container py-5">
                         <div class="row align-items-center mb-5">
-                            <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
+                            <div class="col-lg-6 order-2 order-lg-1">
                                 <h2 class="font-weight-light">WHO WE ARE?</h2>
                                 <p class="font-italic text-muted mb-4">
                                 Don Cueva has been established with the fine vision of ... and who is currently the Chief executive Officer (CEO) 
@@ -38,10 +40,10 @@ class About extends Component{
                                 <div class="bg-white rounded shadow-sm py-5 px-4"><img src={logo} alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"/>
                                 <h5 class="mb-0">name name</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
                                 <ul class="social mb-0 list-inline mt-3">
-                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="linkedin" class="social-link"><FontAwesomeIcon icon="fa-brands fa-linkedin"/></a></li>
+                                    <li class="list-inline-item"><a href="twitter" class="social-link"><FontAwesomeIcon icon="fa-brands fa-twitter"/></a></li>
+                                    <li class="list-inline-item"><a href="instagram" class="social-link"><FontAwesomeIcon icon="fa-brands fa-instagram"/></a></li>
+                                    <li class="list-inline-item"><a href="facebook" class="social-link"><FontAwesomeIcon icon="fa-brands fa-facebook-f"/></a></li>
                                 </ul>
                                 </div>
                             </div>
@@ -52,10 +54,10 @@ class About extends Component{
                                 <div class="bg-white rounded shadow-sm py-5 px-4"><img src={logo} alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"/>
                                 <h5 class="mb-0">name name</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
                                 <ul class="social mb-0 list-inline mt-3">
-                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="linkedin" class="social-link"><FontAwesomeIcon icon="fa-brands fa-linkedin"/></a></li>
+                                    <li class="list-inline-item"><a href="twitter" class="social-link"><FontAwesomeIcon icon="fa-brands fa-twitter"/></a></li>
+                                    <li class="list-inline-item"><a href="instagram" class="social-link"><FontAwesomeIcon icon="fa-brands fa-instagram"/></a></li>
+                                    <li class="list-inline-item"><a href="facebook" class="social-link"><FontAwesomeIcon icon="fa-brands fa-facebook-f"/></a></li>
                                 </ul>
                                 </div>
                             </div>
@@ -66,10 +68,10 @@ class About extends Component{
                                 <div class="bg-white rounded shadow-sm py-5 px-4"><img src={logo} alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"/>
                                 <h5 class="mb-0">name name</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
                                 <ul class="social mb-0 list-inline mt-3">
-                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="linkedin" class="social-link"><FontAwesomeIcon icon="fa-brands fa-linkedin"/></a></li>
+                                    <li class="list-inline-item"><a href="twitter" class="social-link"><FontAwesomeIcon icon="fa-brands fa-twitter"/></a></li>
+                                    <li class="list-inline-item"><a href="instagram" class="social-link"><FontAwesomeIcon icon="fa-brands fa-instagram"/></a></li>
+                                    <li class="list-inline-item"><a href="facebook" class="social-link"><FontAwesomeIcon icon="fa-brands fa-facebook-f"/></a></li>
                                 </ul>
                                 </div>
                             </div>
@@ -80,10 +82,10 @@ class About extends Component{
                                 <div class="bg-white rounded shadow-sm py-5 px-4"><img src={logo} alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"/>
                                 <h5 class="mb-0">name name</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
                                 <ul class="social mb-0 list-inline mt-3">
-                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="linkedin" class="social-link"><FontAwesomeIcon icon="fa-brands fa-linkedin"/></a></li>
+                                    <li class="list-inline-item"><a href="twitter" class="social-link"><FontAwesomeIcon icon="fa-brands fa-twitter"/></a></li>
+                                    <li class="list-inline-item"><a href="instagram" class="social-link"><FontAwesomeIcon icon="fa-brands fa-instagram"/></a></li>
+                                    <li class="list-inline-item"><a href="facebook" class="social-link"><FontAwesomeIcon icon="fa-brands fa-facebook-f"/></a></li>
                                 </ul>
                                 </div>
                             </div>
