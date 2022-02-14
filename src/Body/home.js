@@ -1,240 +1,32 @@
 import { Component } from "react/cjs/react.production.min";
-import p1 from "../Body/Images/p1.jpg"
+import p1 from "../Body/Images/p1.jpg";
+import p2 from "../Body/Images/p2.jpg"
 
 class Home extends Component{
     render(){
         return(
             <div className="mt-5">
+                <div class="bg-white py-5">
+                    <div class="container py-5">
+                        <div class="row align-items-center">
+                        <div class="col-lg-5 px-5 mx-auto"><img src={p2} alt="" class="img-fluid mb-4 mb-lg-0"/></div>
+                        <div class="col-lg-6"><i class="fa fa-leaf fa-2x mb-3 text-primary"></i>
+                            <h2 class="font-weight-light">TITLE TITLE</h2>
+                            <p class="font-italic text-muted mb-4">
+                                subtitle subtitle subtitle subtitle subtitle subtitle 
+                                subtitle subtitle subtitle subtitle subtitle subtitle 
+                                subtitle subtitle subtitle subtitle subtitle subtitle 
+                            </p><a href="#" class="btn btn-primary px-5 rounded-pill shadow-sm">COLLECTION</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="hero-image-home">
                     <div class="hero-text">
-                        <h1>DON CUEVA</h1>
+                        <h1>AMPLIFY YOUR PERSONA</h1>
                         <p>PASTE YOUR SLOGON HERE</p>
                     </div>
                 </div>
-                <div class="p-3">
-                    {/* Jackets For You */}
-                    <h2 class="mt-3">Winter Collection</h2>
-                    <div id="winter" className="row justify-content-center overflow-hidden">
-                        <div className="col-md-2 col-s-5">
-                            <div class="card shadow p-2 mt-3" style={{backgroundColor: "#a66dd1"}}>
-                                <img class="m-1 img-fluid" src={p1} style={{height:"200px"}} alt="restaurant Image"/>
-                                <div class="container">
-                                    <h4 class="card-title text-center">JACKET NAME</h4>
-                                    <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
-                                    <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 col-s-5">
-                            <div class="card shadow p-2 mt-3" style={{backgroundColor: "#a66dd1"}}>
-                                <img class="m-1 img-fluid" src={p1} style={{height:"200px"}} alt="restaurant Image"/>
-                                <div class="container">
-                                    <h4 class="card-title text-center">JACKET NAME</h4>
-                                    <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
-                                    <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 col-s-5">
-                            <div class="card shadow p-2 mt-3" style={{backgroundColor: "#a66dd1"}}>
-                                <img class="m-1 img-fluid" src={p1} style={{height:"200px"}} alt="restaurant Image"/>
-                                <div class="container">
-                                    <h4 class="card-title text-center">JACKET NAME</h4>
-                                    <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
-                                    <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 col-s-5">
-                            <div class="card shadow p-2 mt-3" style={{backgroundColor: "#a66dd1"}}>
-                                <img class="m-1 img-fluid" src={p1} style={{height:"200px"}} alt="restaurant Image"/>
-                                <div class="container">
-                                    <h4 class="card-title text-center">JACKET NAME</h4>
-                                    <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
-                                    <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 col-s-5">
-                            <div class="card shadow p-2 mt-3" style={{backgroundColor: "#a66dd1"}}>
-                                <img class="m-1 img-fluid" src={p1} style={{height:"200px"}} alt="restaurant Image"/>
-                                <div class="container">
-                                    <h4 class="card-title text-center">JACKET NAME</h4>
-                                    <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
-                                    <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 col-s-5">
-                            <div class="card shadow p-2 mt-3" style={{backgroundColor: "#a66dd1"}}>
-                                <img class="m-1 img-fluid" src={p1} style={{height:"200px"}} alt="restaurant Image"/>
-                                <div class="container">
-                                    <h4 class="card-title text-center">JACKET NAME</h4>
-                                    <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
-                                    <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <a href="#" class="m-2"><u><button className="btn float-end btn-primary">MORE</button></u></a> */}
-                    </div>
-                    <hr/>
-
-                   
-
-                    {/* Cheaper Restaurant */}
-                    <h2>Summer Collection</h2>
-                    <div id="summer" className="row justify-content-center overflow-hidden">
-                    <div className="col-md-2 col-s-5">
-                            <div class="card shadow p-2 mt-3" style={{backgroundColor: "#a66dd1"}}>
-                                <img class="m-1 img-fluid" src={p1} style={{height:"200px"}} alt="restaurant Image"/>
-                                <div class="container">
-                                    <h4 class="card-title text-center">JACKET NAME</h4>
-                                    <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
-                                    <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 col-s-5">
-                            <div class="card shadow p-2 mt-3" style={{backgroundColor: "#a66dd1"}}>
-                                <img class="m-1 img-fluid" src={p1} style={{height:"200px"}} alt="restaurant Image"/>
-                                <div class="container">
-                                    <h4 class="card-title text-center">JACKET NAME</h4>
-                                    <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
-                                    <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 col-s-5">
-                            <div class="card shadow p-2 mt-3" style={{backgroundColor: "#a66dd1"}}>
-                                <img class="m-1 img-fluid" src={p1} style={{height:"200px"}} alt="restaurant Image"/>
-                                <div class="container">
-                                    <h4 class="card-title text-center">JACKET NAME</h4>
-                                    <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
-                                    <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 col-s-5">
-                            <div class="card shadow p-2 mt-3" style={{backgroundColor: "#a66dd1"}}>
-                                <img class="m-1 img-fluid" src={p1} style={{height:"200px"}} alt="restaurant Image"/>
-                                <div class="container">
-                                    <h4 class="card-title text-center">JACKET NAME</h4>
-                                    <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
-                                    <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 col-s-5">
-                            <div class="card shadow p-2 mt-3" style={{backgroundColor: "#a66dd1"}}>
-                                <img class="m-1 img-fluid" src={p1} style={{height:"200px"}} alt="restaurant Image"/>
-                                <div class="container">
-                                    <h4 class="card-title text-center">JACKET NAME</h4>
-                                    <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
-                                    <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 col-s-5">
-                            <div class="card shadow p-2 mt-3" style={{backgroundColor: "#a66dd1"}}>
-                                <img class="m-1 img-fluid" src={p1} style={{height:"200px"}} alt="restaurant Image"/>
-                                <div class="container">
-                                    <h4 class="card-title text-center">JACKET NAME</h4>
-                                    <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
-                                    <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <a href="#" class="m-2"><u><button className="btn float-end btn-primary">MORE</button></u></a> */}
-                    </div>
-                    <hr/>
-
-                    {/* Expensive jackets */}
-                    <h2>Spring Collection</h2>
-                    <div id="spring" className="row justify-content-center overflow-hidden">
-                    <div className="col-md-2 col-s-5">
-                            <div class="card shadow p-2 mt-3" style={{backgroundColor: "#a66dd1"}}>
-                                <img class="m-1 img-fluid" src={p1} style={{height:"200px"}} alt="restaurant Image"/>
-                                <div class="container">
-                                    <h4 class="card-title text-center">JACKET NAME</h4>
-                                    <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
-                                    <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 col-s-5">
-                            <div class="card shadow p-2 mt-3" style={{backgroundColor: "#a66dd1"}}>
-                                <img class="m-1 img-fluid" src={p1} style={{height:"200px"}} alt="restaurant Image"/>
-                                <div class="container">
-                                    <h4 class="card-title text-center">JACKET NAME</h4>
-                                    <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
-                                    <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 col-s-5">
-                            <div class="card shadow p-2 mt-3" style={{backgroundColor: "#a66dd1"}}>
-                                <img class="m-1 img-fluid" src={p1} style={{height:"200px"}} alt="restaurant Image"/>
-                                <div class="container">
-                                    <h4 class="card-title text-center">JACKET NAME</h4>
-                                    <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
-                                    <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 col-s-5">
-                            <div class="card shadow p-2 mt-3" style={{backgroundColor: "#a66dd1"}}>
-                                <img class="m-1 img-fluid" src={p1} style={{height:"200px"}} alt="restaurant Image"/>
-                                <div class="container">
-                                    <h4 class="card-title text-center">JACKET NAME</h4>
-                                    <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
-                                    <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 col-s-5">
-                            <div class="card shadow p-2 mt-3" style={{backgroundColor: "#a66dd1"}}>
-                                <img class="m-1 img-fluid" src={p1} style={{height:"200px"}} alt="restaurant Image"/>
-                                <div class="container">
-                                    <h4 class="card-title text-center">JACKET NAME</h4>
-                                    <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
-                                    <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 col-s-5">
-                            <div class="card shadow p-2 mt-3" style={{backgroundColor: "#a66dd1"}}>
-                                <img class="m-1 img-fluid" src={p1} style={{height:"200px"}} alt="restaurant Image"/>
-                                <div class="container">
-                                    <h4 class="card-title text-center">JACKET NAME</h4>
-                                    <h5 class="text-center text-info card-subtitle">PRICE /-</h5>
-                                    <hr/>
-                                    <a href="/single"><u><button class="btn btn-primary bg-gradient" style={{width:"100%"}}>VIEW</button></u></a>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <a href="#" class="m-2"><u><button className="btn float-end btn-primary">MORE</button></u></a> */}
-                    </div>
-                    <hr/>
-                </div>
-
             </div>
         )
     }

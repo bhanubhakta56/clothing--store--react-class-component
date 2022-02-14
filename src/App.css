@@ -47,10 +47,10 @@
 /* The hero image for Home page */
 .hero-image-home {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Body/Images/home.jpg");
+  background-image: linear-gradient(rgba(48, 42, 51, 0.5),rgba(115, 69, 129, 0.8));
 
   /* Set a specific height */
-  height: 60vh;
+  height: 40vh;
 
   margin-top: 80px;
 

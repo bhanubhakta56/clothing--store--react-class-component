@@ -8,6 +8,7 @@ import AddProduct from "./Product/AddProduct";
 import UpdateProduct from "./Product/UpdateProduct";
 import ViewProduct from "./Product/ViewProduct";
 import About from "./About";
+import Collection from "./Collection/Collection";
 
 class Body extends Component{
     render(){
@@ -22,6 +23,7 @@ class Body extends Component{
                     <Route path="/updateProduct" exact element={<UpdateProduct/>}/>
                     <Route path="/viewProduct" exact element={<ViewProduct/>}/>
                     <Route path="/aboutUs" exact element={<About/>}/>
+                    <Route path="/collection" exact element={<Collection/>}/>
                 </Routes>
             </div>
         )
