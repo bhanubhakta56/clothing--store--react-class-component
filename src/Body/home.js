@@ -16,7 +16,7 @@ class Home extends Component{
                                 subtitle subtitle subtitle subtitle subtitle subtitle 
                                 subtitle subtitle subtitle subtitle subtitle subtitle 
                                 subtitle subtitle subtitle subtitle subtitle subtitle 
-                            </p><a href="#" class="btn btn-primary px-5 rounded-pill shadow-sm">COLLECTION</a>
+                            </p><a href="/collection" class="btn btn-primary px-5 rounded-pill shadow-sm">COLLECTION</a>
                         </div>
                         </div>
                     </div>
