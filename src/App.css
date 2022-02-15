@@ -127,3 +127,7 @@
   text-decoration: none;
   color: #555;
 }
+.rounded-lg {
+  border-radius: 1rem;
+}
+

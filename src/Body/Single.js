@@ -6,7 +6,6 @@ class Single extends Component{
         return(
             <div className="container-fluid p-3">
                 <div className="hero-single">
-
                 </div>
                 <div style={{backgroundColor: "#fff"}} className="row shadow justify-content-center" >
                     <div className="mb-5 mt-5 col-12">

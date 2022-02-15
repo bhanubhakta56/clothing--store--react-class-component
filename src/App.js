@@ -7,10 +7,10 @@ import Body from './Body/Body';
 import Navbar from './Navbar/Navbar';
 import Footer from './Footer/Footer';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab, faFacebookF } from '@fortawesome/free-brands-svg-icons'
-import { faBell, faCheckSquare, faCoffee, faPencilAlt, faSearch, faSignOutAlt, faStar, faTrash, faUser} from '@fortawesome/free-solid-svg-icons'
+import { fab, faFacebookF, faPaypal } from '@fortawesome/free-brands-svg-icons'
+import { faBell, faCheckSquare, faCoffee, faCreditCard, faPencilAlt, faSearch, faSignOutAlt, faStar, faTrash, faUniversity, faUser} from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab, faCheckSquare, faCoffee, faSearch, faStar, faUser, faSignOutAlt, faPencilAlt, faTrash, faBell)
+library.add(fab, faCheckSquare, faCoffee, faSearch, faStar, faUser, faSignOutAlt, faPencilAlt, faTrash, faBell, faCreditCard, faUniversity, faPaypal)
 
 
 

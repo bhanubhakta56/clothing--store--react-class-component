@@ -9,11 +9,13 @@ import UpdateProduct from "./Product/UpdateProduct";
 import ViewProduct from "./Product/ViewProduct";
 import About from "./About";
 import Collection from "./Collection/Collection";
+import Cart from "./Cart/Cart";
+import Payment from "./Payment/Payment";
 
 class Body extends Component{
     render(){
         return(
-            <div>
+            <div className="bg-light">
                 <Routes>
                     <Route path="/" exact element={<Home/>}/>
                     <Route path="/single" exact element={<Single/>}/>
@@ -24,6 +26,8 @@ class Body extends Component{
                     <Route path="/viewProduct" exact element={<ViewProduct/>}/>
                     <Route path="/aboutUs" exact element={<About/>}/>
                     <Route path="/collection" exact element={<Collection/>}/>
+                    <Route path="/myCart" exact element={<Cart/>}/>
+                    <Route path="/makePayment" exact element={<Payment/>}/>
                 </Routes>
             </div>
         )
